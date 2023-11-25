@@ -1,0 +1,97 @@
+.pageContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100%;
+  align-items: center;
+  background-color: #74ccf4;
+}
+.fishList {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  background: transparent;
+}
+
+.fishItem {
+  display: flex;
+  height: 45px;
+  padding: 0 15px;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #2389da;
+  &:nth-child(even) {
+    background-color: #0f5e9c;
+  }
+}
+
+.fishForm {
+  flex-direction: row;
+  margin: 50px 0;
+  padding-top: 0;
+  justify-content: space-between;
+  align-items: center;
+}
+.inputType {
+  width: 130px;
+  height: 25px;
+  padding-left: 10px;
+}
+
+.inputTypePlanning {
+  width: 250px;
+  height: 45px;
+  padding-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.buttonSubmit {
+  width: 130px;
+  height: 25px;
+}
+
+.buttonSubmitPlan {
+  width: 240px;
+  height: 60px;
+  padding: 20px;
+  margin: 10px;
+}
+
+.buttonDelete {
+  color: #0d0d0d;
+  font-weight: bolder;
+  border: 3px solid #0d0d0d;
+  border-radius: 10%;
+  height: 25px;
+  width: 25px;
+}
+
+.buttonsType {
+  margin: 30px 0;
+  height: 40px;
+}
+
+.tabButton {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 48%;
+  border: 1px solid white;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.aquaForm {
+  flex-direction: column;
+}
+
+p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
